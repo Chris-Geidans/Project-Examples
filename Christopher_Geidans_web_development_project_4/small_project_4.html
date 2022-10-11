@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Christopher Geidans Project 3</title>
+      <link href="css/project4style.css" type="text/css" rel="stylesheet" />
+      <meta charset="utf-8">
+      <meta name="description" content="A page that displays a different image depending on the current time of day, also a slideshow of all images in the gallery. /">
+      <meta name="keywords" content="time, pictures, dogs, frogs, cats, bats, slideshow, morning, noon, evening, night" />
+      <meta name="robots" content="nofollow" />
+      <meta name="author" content="Christopher Geidans" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <!-- End of head, start of page content -->
+
+    <body>
+      <!-- 1st div containing main images and captions -->
+      <div class="block" id="timed">
+        <h1>Welcome to my project 4 page!</h1>
+        <p>The animal pictured below will change depending on the time of day. Dogs for  early morning (1am-6am), frogs for the morning (7am-12pm), cats for the afternoon (1pm-6pm) bats at late evening and night (7pm-12am).</p>
+        <img id="mainImage" src="images/dog1.jpg" alt="A jolly corgi dog standing on railroad tracks." />
+        <p id="mainCaptionSpace">Image caption goes here</p>
+        <p id="mainTimeSpace">Current time goes here</p>
+      </div>
+      <!-- End of 1st div -->
+
+      <!-- 2nd div containing slidshow and buttons -->
+      <div class="block" id="slideShow">
+        <h2>Slideshow</h2>
+        <p>Browse throught all the images at your leisure, one by one or select an image at random.</p>
+        <img id="slideShowImage" src="images/dog1.jpg" alt="A jolly corgi dog standing on railroad tracks." />
+        <p id="slideImageCaption">Here is a photo of a jolly corgi dog standing on a set of railroad tracks.</p>
+        <button class="button" id="nextButton">Next</button>
+        <button class="button" id="randomButton">Random</button>
+      </div>
+      <!-- End of 2nd div -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JavaScript/project4.js"></script>
+    </body>
+  </html>

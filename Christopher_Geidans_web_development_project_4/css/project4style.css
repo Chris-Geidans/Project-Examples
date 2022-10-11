@@ -1,0 +1,67 @@
+/* CSS stylesheet for project 3 */
+/* Created by Christopher Geidans */
+/* Classes: block, button */
+/* ids:
+   timed
+   mainImage
+   mainCaptionSpace
+   mainTimeSpace
+   slideShow
+   slideShowImage
+   slideImageCaption
+   nextButton
+   randomButton */
+/* ---------------------------------------------------------------------------- */
+body {
+  background-color: rgb(45,37,65);
+  padding: 1%;
+  text-align: center;
+  margin: auto;}
+
+h1, h2, p {color: rgb(242,242,242);}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  padding: 1%;
+  font-size: 300%;
+  background-color: rgb(26,26,26);
+  border: thick solid rgb(26,26,26);
+  border-radius: 70%;}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  padding: 1%;
+  font-size: 200%;
+  background-color: rgb(26,26,26);
+  border: thick solid rgb(26,26,26);
+  border-radius: 70%;}
+
+p {font-size: 130%;}
+
+img {
+  height: 10%;
+  width: 10%;
+  border: thick solid rgb(26,26,26);
+  border-radius: 5%;}
+
+.button{
+  margin: 0.5% 0.5%;
+  font-size: 150%;
+  color: rgb(242,242,242);
+  background-color: rgb(26,26,26);
+  border: medium solid rgb(242,242,242);
+  border-style: groove;
+  border-radius: 30%;}
+
+.button:hover {background-color: rgb(38,38,38);}
+
+.button:active {
+  background-color: rgb(242,242,242);
+  color: rgb(26,26,26);
+  border-style: inset;}
